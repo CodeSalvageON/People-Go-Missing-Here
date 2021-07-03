@@ -43,3 +43,12 @@ KEY - Use a key.
 <br/>
 DISTRACT - Distract an enemy in your area and allow for a player to get away.
 # Walkthrough
+Step 1: First, wander around until you find a hammer- you can also get this by killing a Young Girl.
+<br/>
+Step 2: If you can't find a hammer, fight an enemy and get a weapon. 
+<br/>
+Step 3: Wander until you find medicine and food. Use the take command regularly at medicine and food areas. 
+<br/>
+Step 4: Wander until you find a key. 
+<br/>
+Step 5: GOTO 666 (or any coordinate beginning with 6) and then use the KEY command.
