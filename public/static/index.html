@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title>People Go Missing Here</title>
+
+    <link href="https://codesalvageon.github.io/magichat/styles/index.css" rel="stylesheet">
+    <link href="/styles/index.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body class="crt">
+    <div id="title-div" class="error center">
+      <h1>People Go Missing Here</h1>
+    </div>
+    <p class="error" id="status">Health: 100% Hunger: 100% 9MM: 0% Current Location: 000</p>
+    <hr/>
+    <div id="text-box" class="add-scroll"> 
+    </div>
+    <form id="command-form" autocomplete="off">
+      <h3 class="error">Command: <input type="text" id="command-input" required/></h3>
+    </form>
+    <hr/>
+
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAAEEfUpiAAAACXBIWXMAAAsSAAALEgHS3X78AAACg0lEQVRYhcWXWbLjIAxFDyn2Ze0MsTN5ZeoPhgAe4rzuV31dVBwjCc0AAKrqquoAr/Ih0aGqbmYOdComtpH/VEYUEVQziroCLxEJAMqAKuO4UoOZeRsjVNUjgIiM0ibmOP5xd/Z9PxKM66pqmChGBd29va9LHBWfCMzauhtFSOEIIYTXaAFAAELOXdk4Erg7mvPE8AKCmVEY35NmxsFRimJiE1E39QqDG07xai85Z0JgGk8Q5795mU5NQ860UNUQ5w/HFdbkUFVEpNsfVdVFBDGZHLRwnX+vAt7WGt4yHnoeX8jUEqZac5gJ2yYAbmZs23ZI3VGYmXElvMEfjHcUTmvxPXcZ1AilUK4Icl5DeyIAIBwyRzGTW2YYMpGiCoN5jzALeJi+I4ZMVNZUbmE6c3BzbATY9/1gr5mRUlr5gO5YB0KsDfyScK2FNWAxpXSbcXd1ANWJsqi/Nro7xBZ/YWZqqt+vX5siEAZbQx2IyGE0cxv90pFm3FVbNdNr5zfftg1QREoPOPPDWs5dg9pEanwktMRZu9Qo9FMvgG/7AZSU/SaEozbVqV9X09SQUkof+0dDS+AnrnikwIhizV1LyVyU6dd43c4+b2u/pMAP+uO3OIQgpXTZBgcqcs69uqGXxUefrQk7KXDcl86hqvyrhH21o1lKCXd/NFZlFC7HJ/Qc2PedUJ99309HCOHaSz8siwjvs4Na0dmwU+J1d5vwMByPMN6Trua/hZn5cLvqcm+3ozs8TdgT5dsZ2UWEWLXqO1BLH7NyHFDFR9e3Ev1cqtfIOU8V4cOvq1KdVt4Zdq/mejNz6jPeJcfBxQ64hiLy7nflKqtwcxj2v03Y4bDY1/yv+AMpK1QZW0SVJgAAAABJRU5ErkJggg==" alt="" id="nesucks"/>
+
+    <audio src="/sound/horror-ambience.mp3" loop id="ambience"></audio>
+    <audio src="/sound/swoosh.mp3" id="swoosh"></audio>
+    <audio src="/sound/9mm.mp3" id="gunshot"></audio>
+    <audio src="/sound/fauto.mp3" id="fauto"></audio>
+    
+    <script src="https://codesalvageon.github.io/magichat/scripts/jquery.js"></script>
+    <script src="https://codesalvageon.github.io/magichat/scripts/socketio.js"></script>
+    <script src="/game/objects.js"></script>
+    <script src="/game/textbox.js"></script>
+    <script src="/game/joins.js"></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+/* Natural Tags */
+
+body {
+  background-color: black;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+input [type="button"] {
+   outline: none;
+}
+
+input [type="button"] ::-moz-focus-inner {
+   border: 0;
+}
+
+/* Classes */
+
+.flex {
+  display: flex;
+}
+
+.message {
+  width: 500px;
+  background-color: black;
+}
+
+/* Ids */ 
+
+#text-box {
+  width: 100vw;
+  height: 70vh;
+}
+
+#command-input {
+  width: 500px;
+  color: red;
+  outline: none;
+  border: hidden;
+  background-color: black;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+#nesucks {
+  right: 0px;
+  bottom: 0px;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+}
+
+#nesucks:hover {
+  cursor: pointer;
+}
